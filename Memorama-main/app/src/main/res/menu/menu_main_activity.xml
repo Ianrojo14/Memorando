@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_reiniciar"
+        android:title="@string/option_reiniciar" />
+    <item android:id="@+id/option_terminar"
+        android:title="@string/option_terminar" />
+    <item android:id="@+id/option_salir"
+        android:title="@string/option_salir" />
+</menu>

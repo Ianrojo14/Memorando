@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Memorama</string>
+    <string name="msg">Este es el boton de inicio</string>
+    <string name="option_reiniciar">Reiniciar</string> <!-- Agregado -->
+    <string name="option_terminar">Terminar</string> <!-- Agregado -->
+    <string name="option_salir">Salir</string> <!-- Agregado -->
+    <string name="hard_code_text">NULL</string>
+    <string name="btn_comprar">Comprar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="card_text">Dia de la coneja</string>
+    <string name="player1">Jugador 1</string>
+    <string name="player2">Jugador2</string>
+</resources>

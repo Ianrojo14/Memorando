@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_card_margin">16dp</dimen>
+    <dimen name="common_paddin_default">16dp</dimen>
+    <dimen name="image_common_size">50dp</dimen>
+</resources>

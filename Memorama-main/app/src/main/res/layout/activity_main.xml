@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".MainActivity">
+
+        <include
+            android:id="@+id/lyt_marcador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/marcador_juego"
+            android:layout_marginHorizontal="20dp"
+            />
+        <include
+            android:id="@+id/lyt_cartas"
+            android:layout_marginTop="40dp"
+            layout="@layout/cartas_imagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/main_bottom_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+            app:navigationIcon="@drawable/icon_menu"
+            app:menu="@menu/menu_main_activity" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_nueva"
+            app:layout_anchor="@+id/main_bottom_app_bar"
+            android:contentDescription="@string/msg" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
